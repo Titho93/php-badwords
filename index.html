@@ -14,17 +14,17 @@
 
     <h1 class="text-center p-5 ">PHP Badwords</h1>
 
-    <form class="row g-3 p-5 ">
+    <form action="landing-page.index.php" method="GET" class="row g-3 p-5 ">
         <div class="col-auto p-4 ">
             <label for="word">Word</label>
-            <input type="text" class="form-control" id="word">
+            <input type="text" class="form-control" name="word" id="word">
         </div>
         <div class="mb-3 p-4 ">
-            <label for="exampleFormControlTextarea1" class="form-label">Paragraph</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="text" class="form-label">Paragraph</label>
+            <textarea class="form-control" id="text" name="text" rows="3"></textarea>
         </div>
         <div class="col-auto p-5">
-            <button type="submit" class="btn btn-primary mb-3">send</button>
+            <button type="submit" class="btn btn-primary mb-3">Send</button>
         </div>
     </form>
 
