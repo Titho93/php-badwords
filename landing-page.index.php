@@ -1,10 +1,10 @@
 <?php
 
-var_dump($_GET);
 $text = $_GET['text'];
+$word = $_GET['word'];
 
 $explode_string = explode(' ', $text);
-
+$string_replace = str_replace($word, '***', $text)
 ?>
 
 <!DOCTYPE html>
@@ -16,8 +16,13 @@ $explode_string = explode(' ', $text);
 </head>
 <body>
     
-<h2> text: <?php echo $text ?> <br>
- text characters: <?php echo strlen($text) ?></h2>
+<h2> Text Sent: <?php echo $text ?> <br>
+ Text: <?php echo strlen($text) ?> characters
+</h2>
+
+<h3>Selected Word: <?php echo $word ?></h3>
+
+<h2>Final Text: <?php echo $string_replace ?></h2>
 
 </body>
 </html>
