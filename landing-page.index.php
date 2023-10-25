@@ -16,9 +16,9 @@ $string_replace = str_replace($word, '***', $text)
 </head>
 <body>
     
-<h2> Text Sent: <?php echo $text ?> <br>
+<h4> Text Sent: <?php echo $text ?> <br>
  Text: <?php echo strlen($text) ?> characters
-</h2>
+</h4>
 
 <h3>Selected Word: <?php echo $word ?></h3>
 
