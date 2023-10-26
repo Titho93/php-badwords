@@ -22,7 +22,10 @@ $string_replace = str_replace($word, '***', $text)
 
 <h3>Selected Word: <?php echo $word ?></h3>
 
-<h2>Final Text: <?php echo $string_replace ?></h2>
+<h2>Final Text: <?php echo $string_replace ?> <br>
+ Text: <?php echo strlen($string_replace) ?> characters
+
+</h2>
 
 </body>
 </html>
